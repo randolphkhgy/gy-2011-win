@@ -9,47 +9,11 @@
     "make": "electron-forge make"
   },
   "dependencies": {
-    "electron-compile": "^6.4.1",
     "gy-2011-client": "git+https://randolph_kh_gy@bitbucket.org/randolph_kh_gy/gy-2011-client.git",
     "jquery": "^3.2.1"
   },
-  "devDependencies": {
-    "babel-plugin-transform-async-to-generator": "^6.24.1",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1",
-    "electron-prebuilt-compile": "1.6.11"
-  },
-  "author":{
+  "devDependencies": {},
+  "author": {
     "name": "randolph"
-  },
-  "config": {
-    "forge": {
-      "make_targets": {
-        "win32": [
-          "squirrel"
-        ],
-        "darwin": [
-          "zip"
-        ],
-        "linux": [
-          "deb",
-          "rpm"
-        ]
-      },
-      "electronPackagerConfig": {},
-      "electronWinstallerConfig": {
-        "name": "gy_2011_win"
-      },
-      "electronInstallerDebian": {},
-      "electronInstallerRedhat": {},
-      "github_repository": {
-        "owner": "",
-        "name": ""
-      },
-      "windowsStoreConfig": {
-        "packageName": "",
-        "name": "gy2011win"
-      }
-    }
   }
 }
