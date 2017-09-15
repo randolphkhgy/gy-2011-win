@@ -9,7 +9,7 @@
     "make": "electron-forge make"
   },
   "dependencies": {
-    "gy-2011-client": "git+https://randolph_kh_gy@bitbucket.org/randolph_kh_gy/gy-2011-client.git",
+    "gy-2011-client": "git+https://github.com/randolphkhgy/gy-2011-client.git",
     "jquery": "^3.2.1"
   },
   "devDependencies": {},
