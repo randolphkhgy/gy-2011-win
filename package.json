@@ -3,16 +3,14 @@
   "version": "0.0.1",
   "description": "娱乐平台开发工具.",
   "main": "src/main.js",
-  "scripts": {
-    "start": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make"
-  },
+  "scripts": {},
   "dependencies": {
     "gy-2011-client": "git+https://github.com/randolphkhgy/gy-2011-client.git",
     "jquery": "^3.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron": "^1.7.6"
+  },
   "author": {
     "name": "randolph"
   }
